@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Popular Movie</string>
+    <string name="error">Sorry!!! Some error occured</string>
+    <string name="Refresh">refresh</string>
+    <string name="sort_popular">Popularity</string>
+    <string name="rating">Rating:high to low</string>
+    <string name="title">Title</string>
+    <string name="plot">Plot</string>
+    <string name="vote">Vote</string>
+</resources>

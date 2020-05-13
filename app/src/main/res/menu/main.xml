@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:title="@string/Refresh"
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/baseline_refresh_black_48dp"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1" />
+    <group
+        android:menuCategory="alternative">
+        <item
+            android:title="@string/sort_popular"
+            android:orderInCategory="1"
+            android:id="@+id/action_sort_popular"/>
+        <item
+            android:title="@string/rating"
+            android:orderInCategory="2"
+            android:id="@+id/action_sort_rating"/>
+    </group>
+
+</menu>
